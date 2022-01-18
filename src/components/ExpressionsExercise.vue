@@ -7,16 +7,17 @@
           <p>
             Write a math equation Vue can evaluate, inside of the curly braces
             below:
+            {{2 + 2}}
           </p>
 
-          <p>{{}}</p>
+          <p>{{3 + 4}}</p>
         </div>
         <div class="border p-1">
           <p>
             Use interpolation to get the customary Hello, World! to display on
             the screen. Don't forget your quotes
           </p>
-          <p>{{}}</p>
+          <p>{{"Hello World"}}</p>
         </div>
       </div>
     </div>
